@@ -1,0 +1,33 @@
+Lists have a number of methods for manipulating elements. Some of them:
+
+append(item) : adds the item element to the end of the list
+
+insert(index, item) : adds an item element to the list at index
+
+extend(items) : adds a set of items to the end of the list
+
+remove(item) : Removes the item element. Only the first occurrence of the element is removed. If the element is not found, throws a ValueError exception
+
+clear() : remove all elements from the list
+
+index(item) : Returns the index of the item element. If the element is not found, throws a ValueError exception
+
+pop([index]) : removes and returns the element at index. If the index is not passed, it simply removes the last element.
+
+count(item) : returns the number of occurrences of the item element in the list
+
+sort([key]) : sorts the elements. By default sorts in ascending order. But using the key parameter we can pass the sorting function.
+
+reverse() : rearranges all elements in the list in reverse order
+
+copy() : copies the list
+
+In addition, Python provides a number of built-in functions for working with lists:
+
+len(list) : returns the length of the list
+
+sorted(list, [key]) : returns a sorted list
+
+min(list) : returns the smallest element of the list
+
+max(list) : returns the largest element of a list
